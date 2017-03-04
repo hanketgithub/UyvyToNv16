@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A0BE791BC41E77002AEF13 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A0BE741BC41E77002AEF13 /* main.c */; settings = {ASSET_TAGS = (); }; };
-		36A0BE7B1BC41E77002AEF13 /* UyvyToNv16.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A0BE771BC41E77002AEF13 /* UyvyToNv16.c */; settings = {ASSET_TAGS = (); }; };
+		36A0BE791BC41E77002AEF13 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A0BE741BC41E77002AEF13 /* main.c */; };
+		36A0BE7B1BC41E77002AEF13 /* UyvyToNv16.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A0BE771BC41E77002AEF13 /* UyvyToNv16.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,7 +89,7 @@
 		36A0BE621BC41E59002AEF13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Hank Lee";
 				TargetAttributes = {
 					36A0BE691BC41E59002AEF13 = {
@@ -140,8 +140,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -182,8 +184,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
